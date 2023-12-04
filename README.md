@@ -15,13 +15,13 @@ QVix can utilize **detailed information** to better distinguish between options 
 #### Case 1. Detailed Information: Miniature Pinscher vs. Chihuahua 
 
 <p align="center" width="60%">
-<a ><img src="images/case1.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="images/case1.png" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 #### Case 2. Contextual Information: Describe the system depicted in the image
 
 <p align="center" width="60%">
-<a ><img src="images/case2.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="images/case2.png" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 ## Getting Started
