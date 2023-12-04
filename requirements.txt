@@ -5,7 +5,7 @@ peft==0.2.0
 numpy==1.25.2
 timm==0.4.12
 torch==2.0.1
-torchaudio==2.0.2+cu117
+torchaudio==2.0.1
 torchvision==0.15.2
 transformers==4.32.0
 wandb==0.15.9
