@@ -10,6 +10,8 @@ QVix leverages LLMs' strong language prior to generate input-exploratory questio
 
 ## Cases
 
+QVix can utilize **detailed information** to better distinguish between options that are easily confused, and achieve a more comprehensive and systematic understanding of images through **contextual information**.
+
 <p align="center" width="60%">
 <a ><img src="images/case1.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
