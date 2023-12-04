@@ -36,7 +36,6 @@ def evaluate_VQA_gpt(
     batch_size=1,
     answer_path='./answers',
     max_new_tokens=256,
-    cot=None,
     args=None,
     classnames=None
 ):  

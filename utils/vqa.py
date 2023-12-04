@@ -19,10 +19,10 @@ def evaluate_VQA(
     batch_size=1,
     answer_path='./answers',
     max_new_tokens=256,
-    cot=None,
     args=None,
     classnames=None
 ):
+    
     predictions=[]
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
     for t, batch in enumerate(tqdm(dataloader, desc="Running inference")):
