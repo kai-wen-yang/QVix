@@ -54,7 +54,7 @@ def evaluate_VQA_gpt(
                 message = [{'role': 'user', 'content': vqa_gpt_prompt.format(f"{batch['question'][i]}\n")}]
                 reply, total_tokens = call_gpt(message, args.api_key)
             subquestions.append(reply)
-            question = reply+'\n'+args.cot.format(batch['question'][i])
+            question = reply+'\n'+args.question.format(batch['question'][i])
             questions.append(question)
             option = batch['question'][i].split('Options:')[1].split('\n')[:-1]
             options.append(option)

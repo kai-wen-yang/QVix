@@ -44,7 +44,7 @@ def evaluate_VQA_vicuna(
         reply = model.text_generate(messages)
         subquestions = reply
         for i in range(len(batch['image_path'])):
-            question = reply[i]+'\n'+args.cot.format(batch['question'][i])
+            question = reply[i]+'\n'+args.question.format(batch['question'][i])
             questions.append(question)
 
         outputs = model.batch_generate(batch['image_path'], questions, max_new_tokens=max_new_tokens)

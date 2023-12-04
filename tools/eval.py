@@ -33,7 +33,7 @@ def parse_args():
 
     # QVix
     parser.add_argument("--task_name", type=str, default=None)
-    parser.add_argument("--cot", type=str, default=None)
+    parser.add_argument("--question", type=str, default=None)
     parser.add_argument("--expname", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--prompt", type=str, default='prompt_hand_v1')

@@ -29,7 +29,7 @@ def evaluate_VQA(
         questions = []
         options = []
         for i in range(len(batch['image_path'])):
-            question = args.cot.format(batch['question'][i])
+            question = args.question.format(batch['question'][i])
             questions.append(question)
             option = batch['question'][i].split('Options:')[1].split('\n')[:-1]
             options.append(option)
