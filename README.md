@@ -47,3 +47,23 @@ export PYTHONPATH="$PYTHONPATH:$PWD"
 You should replace the variable `DATA_DIR` in the `task_datasets/__init__.py` with the directory you save dataset.
 
 SciencQA: in initialing the ScienceQA dataset, the python script will download the test split of ScienceQA from huggingface directly and then saving the samples with image provided DATA_DIR.
+
+##3. Run QVix**
+
+Run QVix on ScienceQA:
+```
+python tools/eval.py \
+--model_name InstructBLIP7B \
+--batch_size 4 \
+--dataset_name ScienceQA \
+--device 0 \
+--expname 'QVix' \
+--sample_num 1000 \
+--task_name vqa_gpt \
+--prompt prompt_hand_v1 \
+--cot "Question: {}Answer:" \
+--api_key ' '
+```
+```--model_name``: the used LVLM
+```--prompt```: The pre-question generation prompt
+```--api_key```: Your openAI key
