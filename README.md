@@ -9,8 +9,8 @@
 ## Cases
 
 <p align="center" width="60%">
-<a ><img src="images/case1.svg" alt="overview" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="images/case1.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 <p align="center" width="60%">
-<a ><img src="images/case2.svg" alt="overview" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="images/case2.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
