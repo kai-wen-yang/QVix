@@ -48,7 +48,7 @@ You should replace the variable `DATA_DIR` in the `task_datasets/__init__.py` wi
 
 SciencQA: in initialing the ScienceQA dataset, the python script will download the test split of ScienceQA from huggingface directly and then saving the samples with image provided DATA_DIR.
 
-##3. Run QVix**
+**3. Run QVix**
 
 Run QVix on ScienceQA:
 ```
@@ -61,9 +61,9 @@ python tools/eval.py \
 --sample_num 1000 \
 --task_name vqa_gpt \
 --prompt prompt_hand_v1 \
---cot "Question: {}Answer:" \
---api_key ' '
+--cot 'Question: {}Answer:' \
+--api_key
 ```
-```--model_name``: the used LVLM
-```--prompt```: The pre-question generation prompt
-```--api_key```: Your openAI key
+```--model_name``: the used LVLM  <br>
+```--prompt```: The pre-question generation prompt  <br>
+```--api_key```: Your openAI key  <br>
