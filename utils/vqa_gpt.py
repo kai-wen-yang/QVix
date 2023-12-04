@@ -13,7 +13,7 @@ from tenacity import (
     retry,
     stop_after_attempt,
     wait_random_exponential,
-)  # for exponential backoff
+)  
 from .prompt import prompt_template
 import collections
 from datasets import Dataset, load_dataset
