@@ -35,6 +35,13 @@ conda create -n QVix python=3.8
 conda activate QVix
 pip install -r requirement.txt
 ```
+
+Add directory to PYTHONPATH:
+```bash
+cd FLYP
+export PYTHONPATH="$PYTHONPATH:$PWD"
+```
+
 **2. Prepare dataset**
 You should replace the variable `DATA_DIR` in the `task_datasets/__init__.py` with the directory you save dataset.
 
