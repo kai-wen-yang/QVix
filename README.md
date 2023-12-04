@@ -61,7 +61,7 @@ python tools/eval.py \
 --sample_num 1000 \
 --task_name vqa_gpt \
 --prompt prompt_hand_v1 \
---cot 'Question: {}Answer:' \
+--question 'Question: {}Answer:' \
 --api_key
 ```
 ```--model_name```: the used LVLM  <br>
