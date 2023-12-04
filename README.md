@@ -31,7 +31,7 @@ Git clone our repository and creating conda environment:
 ```bash
 git clone https://github.com/kai-wen-yang/QVix.git
 cd QVix
-conda create -n QVix python=3.8
+conda create -n QVix python=3.10
 conda activate QVix
 pip install -r requirement.txt
 ```
