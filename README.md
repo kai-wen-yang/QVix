@@ -33,7 +33,7 @@ git clone https://github.com/kai-wen-yang/QVix.git
 cd QVix
 conda create -n QVix python=3.10
 conda activate QVix
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Add directory to PYTHONPATH:
