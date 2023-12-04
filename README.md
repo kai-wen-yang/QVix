@@ -23,3 +23,14 @@ QVix can utilize **detailed information** to better distinguish between options 
 <p align="center" width="60%">
 <a ><img src="images/case2.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
+
+## Getting Started
+**1. Installation**
+Git clone our repository and creating conda environment:
+```bash
+git clone https://github.com/kai-wen-yang/QVix.git
+cd QVix
+conda create -n QVix python=3.8
+conda activate QVix
+pip install -r requirement.txt
+```
