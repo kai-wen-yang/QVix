@@ -64,6 +64,6 @@ python tools/eval.py \
 --cot 'Question: {}Answer:' \
 --api_key
 ```
-```--model_name``: the used LVLM  <br>
+```--model_name```: the used LVLM  <br>
 ```--prompt```: The pre-question generation prompt  <br>
 ```--api_key```: Your openAI key  <br>
