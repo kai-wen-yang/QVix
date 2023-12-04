@@ -38,7 +38,7 @@ pip install -r requirement.txt
 
 Add directory to PYTHONPATH:
 ```bash
-cd FLYP
+cd QVix/models
 export PYTHONPATH="$PYTHONPATH:$PWD"
 ```
 
