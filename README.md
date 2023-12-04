@@ -26,6 +26,7 @@ QVix can utilize **detailed information** to better distinguish between options 
 
 ## Getting Started
 **1. Installation**
+
 Git clone our repository and creating conda environment:
 ```bash
 git clone https://github.com/kai-wen-yang/QVix.git
