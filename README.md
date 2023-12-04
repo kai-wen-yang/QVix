@@ -12,13 +12,13 @@ QVix leverages LLMs' strong language prior to generate input-exploratory questio
 
 QVix can utilize **detailed information** to better distinguish between options that are easily confused, and achieve a more comprehensive and systematic understanding of images through **contextual information**.
 
-Case 1: Detailed Information: Miniature Pinscher vs. Chihuahua 
+# Case 1. Detailed Information: Miniature Pinscher vs. Chihuahua 
 
 <p align="center" width="60%">
 <a ><img src="images/case1.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-Case 2: Contextual Information: Describe the system depicted in the image
+# Case 2. Contextual Information: Describe the system depicted in the image
 
 <p align="center" width="60%">
 <a ><img src="images/case2.svg" alt="overview" style="width: 70%; min-width: 300px; display: block; margin: auto;"></a>
