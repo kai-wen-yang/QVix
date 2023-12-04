@@ -36,6 +36,6 @@ conda activate QVix
 pip install -r requirement.txt
 ```
 **2. Prepare dataset**
-You should change the DATA_DIR in https://github.com/kai-wen-yang/QVix/blob/1e1aa2f10f95c0f038bb87fe2d615958ba4159ae/task_datasets/__init__.py#L1C44-L1C44 to your dataset directory.
+You should replace the variable `DATA_DIR` in the `task_datasets/__init__.py` with the directory you save dataset.
 
 SciencQA: in initialing the ScienceQA dataset, the python script will download the test split of ScienceQA from huggingface directly and then saving the samples with image provided in the directory.
