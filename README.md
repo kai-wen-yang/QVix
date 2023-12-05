@@ -1,6 +1,6 @@
 # Good Questions Help Zero-Shot Image Reasoning
 
-[Good Questions Help Zero-Shot Image Reasoning](https://arxiv.org/abs/2312.5271167)
+[Good Questions Help Zero-Shot Image Reasoning](https://arxiv.org/pdf/2312.01598.pdf)
 
 QVix leverages LLMs' strong language prior to generate input-exploratory questions with more details than the original query, guiding LVLMs to explore visual content more comprehensively and uncover subtle or peripheral details. QVix enables a wider exploration of visual scenes, improving the LVLMs’ reasoning accuracy and depth in tasks such as visual question answering and visual entailment.
 
@@ -67,3 +67,16 @@ python tools/eval.py \
 ```--model_name```: the used LVLM  <br>
 ```--prompt```: The pre-question generation prompt  <br>
 ```--api_key```: Your openAI key  <br>
+
+## Citation
+Please consider citing our paper if you think our codes, data, or models are useful. Thank you!
+```
+@misc{yang2023good,
+      title={Good Questions Help Zero-Shot Image Reasoning}, 
+      author={Kaiwen Yang and Tao Shen and Xinmei Tian and Xiubo Geng and Chongyang Tao and Dacheng Tao and Tianyi Zhou},
+      year={2023},
+      eprint={2312.01598},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
