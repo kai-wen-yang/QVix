@@ -68,6 +68,10 @@ python tools/eval.py \
 ```--prompt```: The pre-question generation prompt  <br>
 ```--api_key```: Your openAI key  <br>
 
+## ToDo
+- [ ] Release the data and evaluation code on image classification.
+- [ ] Release the data and evaluation code on visual entailment.
+
 ## Citation
 Please consider citing our paper if you think our codes, data, or models are useful. Thank you!
 ```
