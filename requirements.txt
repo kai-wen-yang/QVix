@@ -5,6 +5,7 @@ openai==0.28.0
 peft==0.2.0
 numpy==1.25.2
 timm==0.4.12
+tenacity==8.2.3
 torch==2.0.1
 torchaudio==2.0.2
 torchvision==0.15.2
