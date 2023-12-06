@@ -1,9 +1,13 @@
 accelerate==0.21.0
 bitsandbytes==0.41.1
 datasets==2.14.4
+fairscale==0.4.4
 openai==0.28.0
+omegaconf==2.3.0
 peft==0.2.0
 numpy==1.25.2
+iopath==0.1.10
+scipy==1.11.2
 timm==0.4.12
 tenacity==8.2.3
 torch==2.0.1
