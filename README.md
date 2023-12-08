@@ -46,7 +46,7 @@ export PYTHONPATH="$PYTHONPATH:$PWD"
 
 You should replace the variable `DATA_DIR` in the `task_datasets/__init__.py` with the directory you save dataset.
 
-SciencQA: in initialing the ScienceQA dataset, the python script will download the test split of ScienceQA from huggingface directly and then saving the samples with image provided DATA_DIR.
+SciencQA: in initialing the ScienceQA dataset, the python script will download the test split of ScienceQA from huggingface directly and then saving the samples with image in provided `DATA_DIR`.
 
 **3. Run QVix**
 
